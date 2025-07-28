@@ -1,0 +1,47 @@
+#!/bin/bash
+#SBATCH --job-name=RF_NN3_less_reg
+#SBATCH --output=logs/RF_NN3_%j.out
+#SBATCH --error=logs/RF_NN3_%j.err
+#SBATCH --partition=gpu
+#SBATCH --gres=gpu:1
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=64G
+#SBATCH --time=24:00:00
+#SBATCH -A fin-407
+
+# Load modules
+module load gcc
+module load cuda
+
+# Activate environment
+source ~/venv/bin/activate
+
+# Go to project directory
+cd ~/RF_NN3
+
+# Create logs directory
+mkdir -p logs
+
+# Print basic info
+echo "Job ID: $SLURM_JOB_ID"
+echo "Start time: $(date)"
+echo "GPU: $(nvidia-smi --query-gpu=name --format=csv,noheader,nounits)"
+
+# Check data file
+if [ ! -f "full_dataset_excess.csv" ]; then
+    echo "ERROR: Data file not found!"
+    exit 1
+fi
+
+# Run pipeline
+echo "Starting pipeline..."
+python -u main.py
+
+# Show results
+echo "End time: $(date)"
+if [ -f "results/overall_results.txt" ]; then
+    echo "Results:"
+    cat results/overall_results.txt
+fi

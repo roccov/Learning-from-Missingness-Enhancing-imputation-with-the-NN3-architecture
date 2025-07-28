@@ -1,0 +1,66 @@
+============================================================
+PYTORCH ENSEMBLE PIPELINE RESULTS
+============================================================
+
+OVERALL PERFORMANCE:
+Overall Test R²: -0.0395
+Overall Train R²: 0.0924
+Overall RMSE: 0.121519
+Overall MAE: 0.084258
+
+WINDOW AVERAGES:
+Average Test R²: -0.0488
+Average Train R²: 0.0924
+Average epochs: 34.3
+Average features: 32.2
+Feature reduction: 86.2%
+
+R² BY WINDOW:
+Window  1: Train R² = 0.1144 | Test R² = -0.0868
+Window  2: Train R² = 0.1675 | Test R² = 0.0400
+Window  3: Train R² = 0.2252 | Test R² = -0.0810
+Window  4: Train R² = 0.1458 | Test R² = -0.0576
+Window  5: Train R² = 0.0800 | Test R² = 0.0274
+Window  6: Train R² = 0.0842 | Test R² = -0.0274
+Window  7: Train R² = 0.0905 | Test R² = -0.0157
+Window  8: Train R² = 0.0617 | Test R² = -0.0169
+Window  9: Train R² = 0.0694 | Test R² = -0.0619
+Window 10: Train R² = 0.1069 | Test R² = -0.0180
+Window 11: Train R² = 0.0674 | Test R² = -0.0938
+Window 12: Train R² = 0.1242 | Test R² = -0.0936
+Window 13: Train R² = 0.0776 | Test R² = -0.0928
+Window 14: Train R² = 0.0325 | Test R² = -0.0011
+Window 15: Train R² = 0.0257 | Test R² = -0.0096
+Window 16: Train R² = 0.0615 | Test R² = 0.0219
+Window 17: Train R² = 0.1037 | Test R² = -0.0187
+Window 18: Train R² = 0.0705 | Test R² = -0.0768
+Window 19: Train R² = 0.0333 | Test R² = -0.0163
+Window 20: Train R² = 0.0814 | Test R² = -0.0164
+Window 21: Train R² = 0.0689 | Test R² = -0.0124
+Window 22: Train R² = 0.0714 | Test R² = -0.0344
+Window 23: Train R² = 0.0766 | Test R² = -0.0383
+Window 24: Train R² = 0.1022 | Test R² = -0.1749
+Window 25: Train R² = 0.0633 | Test R² = -0.0574
+Window 26: Train R² = 0.0987 | Test R² = -0.1918
+Window 27: Train R² = 0.1063 | Test R² = -0.0048
+Window 28: Train R² = 0.0933 | Test R² = -0.0483
+Window 29: Train R² = 0.1066 | Test R² = -0.1008
+Window 30: Train R² = 0.1421 | Test R² = -0.0688
+Window 31: Train R² = 0.0686 | Test R² = -0.0212
+Window 32: Train R² = 0.0809 | Test R² = -0.0627
+Window 33: Train R² = 0.1197 | Test R² = -0.0787
+Window 34: Train R² = 0.0979 | Test R² = -0.0512
+Window 35: Train R² = 0.0969 | Test R² = -0.0398
+Window 36: Train R² = 0.0988 | Test R² = -0.0489
+Window 37: Train R² = 0.1153 | Test R² = -0.0559
+Window 38: Train R² = 0.0800 | Test R² = -0.0695
+
+CONFIGURATION:
+Training years: 20
+Validation years: 5
+Test years: 1
+Architecture: [32, 16, 8]
+Ensemble size: 1
+Min features: 20
+Max features: 50
+Hyperparameter tuning: True
