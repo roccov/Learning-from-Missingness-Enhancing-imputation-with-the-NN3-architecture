@@ -37,3 +37,5 @@ Rocco Pio Lorenzo Ventruto lien des githubs respectifs
 talula
 noah
 pyotr
+
+This repository is a personal, cleaned-up version of the original group project, with additional comments and refinements for portfolio purposes.
