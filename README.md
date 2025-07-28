@@ -29,7 +29,7 @@
 
 6. Report.pdf : Full academic report
 
-------------- HOW TO RUN THE NN3 CODE -------------------
+## Running the NN3 code:
 
 To run the code, make sure the data file is inside of the folder. CHange the parameters as you wish in the config.py file.
 
