@@ -17,7 +17,7 @@
 
 ## Repository Structure:
 
-1. data_processing_and_features_engineering : Data wrangling, feature engineering and merging
+1. Data_Processing_And_Features_Engineering : Data wrangling, feature engineering and merging
 
 2. LASSO : Lasso regressions
 
@@ -25,7 +25,9 @@
 
 4. NN3_MR : Mildly regularized NN3 architecture
 
-5. NN3_MR_F : Mildly regularized NN3 architecture with Nan Flags adjonction
+5. NN3_MR_F : # Mildly regularized NN3 architecture with Nan Flags adjonction
+
+6. Report.pdf # Full academic report
 
 ------------- HOW TO RUN THE NN3 CODE -------------------
 
