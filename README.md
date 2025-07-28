@@ -2,6 +2,9 @@
 
 # Learning from Missingness: Enhancing imputation with the NN3 architecture
 
+
+## Highlights: 
+
 - Conducted data preprocessing and feature engineering using Compustat accounting data, JKP monthly factors returns and CRSP Security-Level Prices database from 1961 to 2024
 
 - Building a three stage pipeline model that combines Random Forest-based feature selection, hyperparameter optimization and a Neural Network trained on rolling windows to     predict monthly US common stock returns
@@ -12,7 +15,7 @@
 
 
 
-## The repository is structured in the following way:
+## Repository Structure:
 
 1. data_processing_and_features_engineering : Data wrangling, feature engineering and merging
 
@@ -30,7 +33,7 @@ To run the code, make sure the data file is inside of the folder. CHange the par
 
 Then, Simply execute the main.py file in the terminal.
 
---------------------------------------------------------------------------------------------------------
+## Collaborators: 
 This project was carried out as part of the Machine Learning for Finance course taught by Professor Semyon Malamud at the École Polytechnique Fédérale de Lausanne (EPFL), in collaboration with:
 
 Rocco Pio Lorenzo Ventruto [https://github.com/roccov]
