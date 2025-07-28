@@ -1,6 +1,7 @@
 
 
-# Learning from Missingness: Enhancing imputation with the NN3 architecture to predict monthly US common stock returns
+# Learning from Missingness: 
+# Enhancing imputation with the NN3 architecture to predict monthly US common stock returns
 
 
 ## Highlights: 
