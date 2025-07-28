@@ -25,9 +25,9 @@
 
 4. NN3_MR : Mildly regularized NN3 architecture
 
-5. NN3_MR_F : # Mildly regularized NN3 architecture with Nan Flags adjonction
+5. NN3_MR_F :  Mildly regularized NN3 architecture with Nan Flags adjonction
 
-6. Report.pdf # Full academic report
+6. Report.pdf : Full academic report
 
 ------------- HOW TO RUN THE NN3 CODE -------------------
 
