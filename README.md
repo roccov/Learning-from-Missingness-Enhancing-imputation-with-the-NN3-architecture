@@ -30,12 +30,12 @@ To run the code, make sure the data file is inside of the folder. CHange the par
 
 Then, Simply execute the main.py file in the terminal.
 
-
+--------------------------------------------------------------------------------------------------------
 This project was carried out as part of the Machine Learning for Finance course taught by Professor Semyon Malamud at the École Polytechnique Fédérale de Lausanne (EPFL), in collaboration with:
 
-Rocco Pio Lorenzo Ventruto lien des githubs respectifs
-talula
-noah
-pyotr
+Rocco Pio Lorenzo Ventruto [https://github.com/roccov]
+Tallula Graber [https://github.com/Tallulaa]
+Noah Louis Truttmann [https://github.com/NoahTruttmann]
+Piotr Kleymenov [https://github.com/PiotrKley259]
 
 This repository is a personal, cleaned-up version of the original group project, with additional comments and refinements for portfolio purposes.
