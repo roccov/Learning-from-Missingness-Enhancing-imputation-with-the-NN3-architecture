@@ -17,17 +17,19 @@
 
 ## Repository Structure:
 
-1. Data_Processing_And_Features_Engineering : Data wrangling, feature engineering and merging
+00_Report.pdf : Full academic report
 
-2. LASSO : Lasso regressions
+01_Data_Processing_And_Features_Engineering : Data wrangling, feature engineering and merging
 
-3. NN3_HR : Heavily regularized NN3 architecture 
+02_LASSO : Lasso regressions
 
-4. NN3_MR : Mildly regularized NN3 architecture
+03_NN3_HR : Heavily regularized NN3 architecture 
 
-5. NN3_MR_F :  Mildly regularized NN3 architecture with Nan Flags adjonction
+04_NN3_MR : Mildly regularized NN3 architecture
 
-6. Report.pdf : Full academic report
+05_NN3_MR_F :  Mildly regularized NN3 architecture with Nan Flags adjonction
+
+
 
 Full prediction results are available upon request or can be regenerated using the pipeline.
 
