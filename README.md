@@ -12,27 +12,17 @@
 
 
 
-This folder contains all of our code. It is structured in the following way:
+## The repository is structured in the following way:
 
-1. data_processing_and_features_engineering.zip
+1. data_processing_and_features_engineering : Data wrangling, feature engineering and merging
 
-Contains all of the code relative to the data wrangling and merging we did.
+2. LASSO : Lasso regressions
 
-2. LASSO.zip
+3. NN3_HR : Heavily regularized NN3 architecture 
 
-Contains all of the code relevant to the lasso regression we did.
+4. NN3_MR : Mildly regularized NN3 architecture
 
-3. NN3_HR.zip
-
-Contains all of the code relative to our heavily regularized first architecture. 
-
-4. NN3_MR.zip
-
-Contains all of the code relative to our mildly reguarized second architecture. 
-
-5. NN3_MR_F.zip
-
-Contains all of the code relative to our mildly reguarized third architecture, in which the flags are added.
+5. NN3_MR_F : Mildly regularized NN3 architecture with Nan Flags adjonction
 
 ------------- HOW TO RUN THE NN3 CODE -------------------
 
